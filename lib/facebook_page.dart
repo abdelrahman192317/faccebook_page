@@ -19,7 +19,7 @@ class FacebookPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blue,
-        leading: const Icon(Icons.arrow_back),
+        leading: const Icon(Icons.arrow_back, color: Colors.white, size: 30,),
         actions: [
           const Icon(Icons.search, color: Colors.white, size: 30,),
           SizedBox(width: size.width * 0.015,),
